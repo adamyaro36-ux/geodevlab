@@ -1,6 +1,6 @@
 # geodevlab
 
-## Month 1: Project Brief
+## Month 1 Week 1: Project Brief
 
 ### Part 1: The question
 Which ward in Maiduguri Metropolitan Council, Borno State is more than 5 km from a police station?
@@ -22,7 +22,7 @@ This question identifies wards in Maiduguri Metropolitan Council where both inha
 | Nigeria ward-level data | GRID3 NGA Operational Wards v3.0 (July 2020) – 128 MB. https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v3-0/about |
 | Nigeria LGA-level data | GRID3 NGA Operational LGA Boundaries (December 2020) – 2.6 MB. https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about |
 | Nigeria state boundary data | GRID3 NGA Operational State Boundaries (December 2020) – 645 KB. https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about |
-| Police stations in MMC, Borno State | GRID3 NGA Police Station Locations (September 2020) – 76.3 KB. Maiduguri data was unavailable on GRID3 and OpenStreetMap, so I obtained it from Google Earth Pro as XYZ, exported and converted it to a shapefile. |
+| Police stations in MMC, Borno State | GRID3 NGA Police Station Locations (September 2020) – 76.3 KB. https://data.grid3.org/search?q=police — Maiduguri data was unavailable on GRID3 and OpenStreetMap, so I obtained it from Google Earth Pro as XYZ, exported and converted it to a shapefile. Google Earth Pro: https://www.google.com/earth/versions/#earth-pro |
 | Road data for MMC, Borno State | Extracted using the QuickOSM plugin in QGIS. https://plugins.qgis.org/plugins/QuickOSM/ |
 
 ### Part 5: What I would build
