@@ -1,6 +1,6 @@
-# geodevlab
 
-## Month 1 Week 1: Project Brief
+## Month 1 :GIS FOUNDATIONS AND DATA ECOSYSTEM
+## Week 1: Project Brief
 
 ### Part 1: The question
 Which ward in Maiduguri Metropolitan Council, Borno State is more than 5 km from a police station?
@@ -30,6 +30,8 @@ An interactive web map of Maiduguri Metropolitan Council showing every ward in r
 
 ---
 
-## Month 2: development environment and early Python
+## Month 2: DEVELOPMENT ENVIROMENT AND EARLY PYTHON
 
-Week 5: set up Python, VS Code and the terminal. hello.py runs
+## Week 5: Set up Python, VS Code and the terminal. hello.py runs
+
+## WEEK 6: Enviroments and project setup with UV and added pandas. check.py prints the pandas version
