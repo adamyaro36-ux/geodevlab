@@ -45,7 +45,7 @@ An interactive web map of Maiduguri Metropolitan Council showing every ward in r
 - **Number of Features:** [774]
 - **Key Columns:** [adm2_name,adm2_pcode,adm2_name,area_sqm]
 - **Geometry Type:** polygon [multiPolygon]
-- **Gaps or Missing Values Noticed:** there is no missing value.
+- **Gaps or Missing Values Noticed:** there is no missing value.s
 
 ### Dataset 3: Roads (Nigeria)
 - **Source Link:** [https://data.humdata.org/dataset/nigeria-roads)]
