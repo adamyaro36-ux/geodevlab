@@ -35,3 +35,4 @@ An interactive web map of Maiduguri Metropolitan Council showing every ward in r
 ## Week 5: Set up Python, VS Code and the terminal. hello.py runs
 
 ## WEEK 6: Enviroments and project setup with UV and added pandas. check.py prints the pandas version
+## WEEK 7: Python,the six ideas:analyse.py reads wards.csv convert each area and classify each ward.
