@@ -63,3 +63,4 @@ EPSG4326 (WGS 84) coordinate system.the description colum has a 30 character lim
 
 ## WEEK 6: Enviroments and project setup with UV and added pandas. check.py prints the pandas version
 ## WEEK 7: Python,the six ideas:analyse.py reads wards.csv convert each area and classify each ward.
+## WEEK 8: Python,files and data:inspect_data.py summarises area_km2 and population in my wards data.
