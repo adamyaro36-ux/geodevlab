@@ -54,6 +54,26 @@ An interactive web map of Maiduguri Metropolitan Council showing every ward in r
 - **Key Columns:** RTT_DESCRI (Route Type), MED_DESCRI (Median), F_CODE_DES (Feature Code), DESCRIPTIO
 - **Data Gaps / Missing Values:** The data set has 7 field and uses the 
 EPSG4326 (WGS 84) coordinate system.the description colum has a 30 character limit, which truncates longer text value (e.g "other road and tr...").no blank cells were immeditely visible in the attribute table.
+## WEEK 03: Cordinate system and data preparation.
+Prepared analysis-ready data by reprojecting to EPSG:32632 and clipping to maiduguri,saved as data/analysis_ready.gpkg. Quality checks documented in quality_check_note.text
+
+
+## Week 04: Spatial Analysis & Map Layout
+
+**Task:** Run a spatial operation in a projected CRS to answer the analysis question: *Which ward in Maiduguri Metropolitan Council is more than 5 km from a police station?*
+
+**Operation Performed:** 
+* **Spatial Join (Join Attributes by Nearest)** using a projected CRS (EPSG:32633 - WGS 84 / UTM zone 33N) to calculate accurate distances in meters.
+* I joined the `mmc_wards reprojection` layer with the `police_reprojected` layer to find the distance from each ward to its closest police station.
+
+**Results:**
+* I expected to find several wards further than 5km away. However, the spatial join revealed that **no ward is more than 5 km from a police station** (the maximum distance was approximately 1.49 km). 
+* I also discovered one ward (Maisandari) was equidistant to two stations, resulting in 16 rows instead of the expected 15.
+
+**Deliverables:**
+* [Read the full analysis summary here](month-1-summary.md)
+* View the final layout map: ![Maiduguri Map](maiduguri_map.png)
+
 
 ---
 

@@ -1,0 +1,19 @@
+Week 3 Data Preparation Note
+
+CRS Chosen: EPSG:32632 (WGS 84 / UTM zone 32N). 
+Why: The original data was in EPSG:4326 (geographic degrees). I reprojected it to UTM zone 32N because it is a projected coordinate system that uses meters, which is necessary for accurate area and distance calculations for the Maiduguri study area.
+
+Reprojection and Clipping:
+I reprojected the original Nigeria ward boundaries layer to EPSG:32632. I then clipped the reprojected layer using the Maiduguri layer as the overlay boundary to isolate my study area. 
+
+Quality Check Results:
+1. CRS Check: Confirmed the final layer is correctly set to EPSG:32632.
+2. Geometry Validity: Ran the "Check Validity" tool. Result: 0 invalid geometries found (3 valid).
+3. Duplicate Check: Used the Topology Checker to check for duplicates. Result: 0 errors found.
+4. Missing Values: Visually inspected the attribute table for all 3 features. Result: No missing values found in the columns.
+5. Overlaps/Gaps: Used the Topology Checker to check for overlapping polygons. Result: 0 errors found.
+
+Problems Found and Actions:
+No major problems were found. All geometries are valid, and there are no overlaps or duplicates. No fixes were needed.
+File Location:
+The analysis-ready file is saved as a GeoPackage at: data/analysis_ready.gpkg (Layer name: maiduguri_clipped).
