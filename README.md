@@ -84,3 +84,8 @@ Prepared analysis-ready data by reprojecting to EPSG:32632 and clipping to maidu
 ## WEEK 6: Enviroments and project setup with UV and added pandas. check.py prints the pandas version
 ## WEEK 7: Python,the six ideas:analyse.py reads wards.csv convert each area and classify each ward.
 ## WEEK 8: Python,files and data:inspect_data.py summarises area_km2 and population in my wards data.
+## WEEK 9: Consolidation and Refactoring
+* Refactored the Week 8 script into clean functions (`read_rows`, `clean_values`, `summarise`) and created a capstone `summary.py` that summarizes columns from the Month 1 dataset.
+
+## Month 2 reflection
+This month, the idea that finally clicked for me was how to break a long, messy block of code into small, single-purpose functions that return values instead of just printing them. It makes the code so much easier to read and debug. What is still a bit fuzzy is getting the terminal paths and virtual environments perfectly set up every time, but using `uv run` has helped a lot. My capstone tells me that my Month 1 dataset is clean enough to be processed automatically, and seeing the script calculate the area stats confirms the numbers I was looking at manually in QGIS.
