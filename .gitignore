@@ -1,2 +1,7 @@
 .venv/
 __pycache__/
+
+# Rasters and archives are large: keep them on your laptop
+*.tif
+*.Tif
+*.zip
