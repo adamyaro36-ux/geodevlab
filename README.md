@@ -89,3 +89,7 @@ Prepared analysis-ready data by reprojecting to EPSG:32632 and clipping to maidu
 
 ## Month 2 reflection
 This month, the idea that finally clicked for me was how to break a long, messy block of code into small, single-purpose functions that return values instead of just printing them. It makes the code so much easier to read and debug. What is still a bit fuzzy is getting the terminal paths and virtual environments perfectly set up every time, but using `uv run` has helped a lot. My capstone tells me that my Month 1 dataset is clean enough to be processed automatically, and seeing the script calculate the area stats confirms the numbers I was looking at manually in QGIS.
+
+
+## MONTH 3: GEOSPATIAL PYTHON AND AUTOMATION
+ ## Week 10 :Geopandas. Loaded, checked, joined and mapped my police stations in code.
