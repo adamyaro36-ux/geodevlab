@@ -92,4 +92,8 @@ This month, the idea that finally clicked for me was how to break a long, messy 
 
 
 ## MONTH 3: GEOSPATIAL PYTHON AND AUTOMATION
- ## Week 10 :Geopandas. Loaded, checked, joined and mapped my police stations in code.
+
+ ## Week 10 : Geopandas. Loaded, checked, joined and mapped my police stations in code.
+
+ 
+ ## Week 11: CRS and spatial operations. Reprojected to EPSG:32633 and measured police station coverage in Maiduguri.

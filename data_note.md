@@ -23,3 +23,12 @@
 - **Key Columns:** RTT_DESCRI (Route Type), MED_DESCRI (Median), F_CODE_DES (Feature Code), DESCRIPTIO
 - **Data Gaps / Missing Values:** The data set has 7 field and uses the 
 EPSG4326 (WGS 84) coordinate system.the description colum has a 30 character limit, which truncates longer text value (e.g "other road and tr...").no blank cells were immeditely visible in the attribute table.
+
+
+## Project Data Note
+
+## Week 11 (Month 3)
+- **Project Area:** Ibadan
+- **UTM Zone / EPSG Code:** EPSG:32631 (WGS 84 / UTM Zone 31N)
+
+
