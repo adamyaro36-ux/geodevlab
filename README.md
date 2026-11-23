@@ -97,3 +97,6 @@ This month, the idea that finally clicked for me was how to break a long, messy 
 
  
  ## Week 11: CRS and spatial operations. Reprojected to EPSG:32633 and measured police station coverage in Maiduguri.
+
+
+ ## Week 12: Rasters. Computed NDVI for Ibadan North and summarised it per ward.
